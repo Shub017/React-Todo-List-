@@ -7,6 +7,7 @@ function App() {
   const {arecotentsFetched, Fetchedcontents, fetchItemsOfList, addNewResource, setTitle, setContent, title, content, titleInputRef, delteItem, updateItem, isModalOpen, setIsModalOpen, selectedItem, setSelectedItem, setId} = useContext(CustomContext);
   
   
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -15,10 +16,10 @@ function App() {
         console.error("Error fetching data:", error);
       }
     };
-  
+
     fetchData();
-    
-  }, []);
+
+  }, [fetchItemsOfList]);
 
   const submitForm = async (event)=>{
     event.preventDefault();

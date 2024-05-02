@@ -1,4 +1,4 @@
-import { createContext, useState, useRef } from "react";
+import { createContext, useState, useRef, useCallback } from "react";
 
 
 
@@ -15,26 +15,28 @@ export default function CustomProviderContext({children}){
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedItem, setSelectedItem] = useState(null);
 
-    const fetchItemsOfList = ()=>{
-        try{fetch('https://jsonplaceholder.typicode.com/posts')
-        .then((response) => response.json())
-        .then((json) => {
-            setFetchedContents((prevVal)=>{
-                if(Array.isArray(json)){
-                    return json;
-                }
-                else{
-                    return [json];
-                }
+    const fetchItemsOfList = useCallback(() => {
+        try {
+            fetch('https://jsonplaceholder.typicode.com/posts')
+            .then((response) => response.json())
+            .then((json) => {
+                setFetchedContents((prevVal)=>{
+                    if(Array.isArray(json)){
+                        return json;
+                    }
+                    else{
+                        return [json];
+                    }
+                });
+                setAreContentsFetched(true);
+                console.log(json);
             });
-            setAreContentsFetched((prevVal)=>{return true});
-            console.log(json);
-        });}
-        catch(error){
+        } catch(error) {
             console.log(error);
-            setAreContentsFetched((prevVal)=>{return false});
+            setAreContentsFetched(false);
         }
-    }
+    }, [setFetchedContents, setAreContentsFetched]);
+    
 
     const addNewResource = async ()=>{
         if (title.trim() === '' || content.trim() === ''){
