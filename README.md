@@ -1,70 +1,37 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# To do List - 📋 ☑️☑️
+## ⭐ Introduction 
 
-## Available Scripts
+This is To Do List web app which is build using ReactJS🚀
 
-In the project directory, you can run:
+Deployed using Render -: https://main--busybuy-1.netlify.app/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![App Screenshot](ScreenShots/Screenshot-1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Introduction to the E-commerce Website:
+ToDo List uses the API to fetch the list and display items. One can also delete, update and add new item in the list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🔨 Tools Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Logo](https://camo.githubusercontent.com/e56ca1eaaab376d28db9d2cc5f9b4764d97dfdc52235e5fe96d03f2e63d9550b/68747470733a2f2f7777772e77332e6f72672f68746d6c2f6c6f676f2f646f776e6c6f6164732f48544d4c355f4c6f676f5f3235362e706e67)
+![Logo](https://camo.githubusercontent.com/c541c11ce18a7abaf63765b8dbbee0540892a73d54a6eedf616eec2d13937ce3/68747470733a2f2f6c6f676f6469782e636f6d2f6c6f676f2f3437303330392e706e67)
+![Logo](https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png)
+![Logo](https://camo.githubusercontent.com/a9a2d6bf2fca57ecf18a1f129bf6079370f1ceacc6997e873f25d1b4396195e9/68747470733a2f2f636f64652e76697375616c73747564696f2e636f6d2f6173736574732f6170706c652d746f7563682d69636f6e2e706e67)
+![Logo](https://media.licdn.com/dms/image/D4D12AQHa-uvFqNbRDA/article-cover_image-shrink_600_2000/0/1659628219023?e=2147483647&v=beta&t=GH1KT8h7pwXdu_xXt-76FyVYiYmSy8Y_Vv8Sdf0Q1Ag)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
